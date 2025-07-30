@@ -51,17 +51,7 @@
     <td>Giovanni Rovelli</td>
     <td>Giovanni Rovelli</td>
     <td>Italy</td>
-  </tr>
-</table>
-
-</body>
-</html>
-<h1>Html Lists </h1>
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>An Ordered HTML List</h2>
+    <h2>An Ordered HTML List</h2>
 
 <ul>
   <li>1 Shady</li>
@@ -79,4 +69,15 @@
 
 </body>
 </html>
+
+
+  </tr>
+</table>
+
+</body>
+</html>
+<h1>Html Lists </h1>
+<!DOCTYPE html>
+<html>
+<body>
 
