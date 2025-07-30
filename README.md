@@ -79,3 +79,33 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An ordered HTML list</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An ordered HTML list</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+
+</body>
+</html>
+
+
