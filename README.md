@@ -1,6 +1,30 @@
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+</body>
+</html>
+
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
 </head>
 <body>
 
@@ -56,56 +80,41 @@
     <td>28</td>
   </tr>
 
-  <!-- هنا أضفت القوائم داخل خلايا الجدول -->
+  <!-- القوائم داخل الجدول -->
   <tr>
     <td colspan="2">
-      <h3>An Orderd Html List</h3>
-      <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-      </ul>
-    </td>
-    <td colspan="2">
-      <h3>An Unorderd Html List</h3>
+      <h3>An Ordered HTML List</h3>
       <ol>
         <li>Coffee</li>
         <li>Tea</li>
         <li>Milk</li>
       </ol>
     </td>
+    <td colspan="2">
+      <h3>An Unordered HTML List</h3>
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>An ordered HTML list</h2>
-
+<!-- القوائم أسفل الجدول -->
+<h2>Another Ordered HTML list</h2>
 <ol>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
-</ol>  
+</ol>
 
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>An ordered HTML list</h2>
-
-<ol>
+<h2>Another Unordered HTML list</h2>
+<ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
-</ol>  
+</ul>
 
 </body>
 </html>
-
-
