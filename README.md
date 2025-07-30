@@ -22,46 +22,46 @@ tr:nth-child(even) {
 <body>
 <table>
   <tr>
-    <th>1 Shady</th>
-    <th>2 Shady</th>
-    <th>3 Shady</th>
-    <th>4 Shady</th>
+    <th>1 </th>
+    <th>2 </th>
+    <th>3 </th>
+    <th>4 </th>
   </tr>
   <tr>
-    <td>5 Shady</td>
-    <td>6 Shady</td>
-    <td>7 Shady</td>
-    <td>8 Shady</td>
+    <td>5 </td>
+    <td>6 </td>
+    <td>7 </td>
+    <td>8 </td>
   </tr>
   <tr>
-    <td>9 Shady</td>
-    <td>10 Shady</td>
-    <td>11 Shady</td>
-    <td>12 Shady</td>
+    <td>9 </td>
+    <td>10 </td>
+    <td>11 </td>
+    <td>12 </td>
   </tr>
   <tr>
-    <td>13 Shady</td>
-    <td>14 Shady</td>
-    <td>15 Shady</td>
-    <td>16 Shady</td>
+    <td>13 </td>
+    <td>14 </td>
+    <td>15 </td>
+    <td>16 </td>
   </tr>
   <tr>
-    <td>17 Shady</td>
-    <td>18 Shady</td>
-    <td>19 Shady</td>
-    <td>20 Shady</td>
+    <td>17 </td>
+    <td>18 </td>
+    <td>19 </td>
+    <td>20 </td>
   </tr>
   <tr>
-    <td>21 Shady</td>
-    <td>22 Shady</td>
-    <td>23 Shady</td>
-    <td>24 Shady</td>
+    <td>21 </td>
+    <td>22 </td>
+    <td>23 </td>
+    <td>24 </td>
   </tr>
   <tr>
-    <td>25 Shady</td>
-    <td>26 Shady</td>
-    <td>27 Shady</td>
-    <td>28 Shady</td>
+    <td>25</td>
+    <td>26 </td>
+    <td>27 </td>
+    <td>28 </td>
   </tr>
   <tr>
     <td>Magazzini Alimentari Riuniti</td>
@@ -81,17 +81,17 @@ tr:nth-child(even) {
 <h2>An Ordered HTML List</h2>
 
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>1 Shady</li>
+  <li>2 Shady</li>
+  <li>3 Shady</li>
 </ul>  
 
 <h2>An Ordered HTML List</h2>
 
 <ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>1 Shady</li>
+  <li>2 Shady</li>
+  <li>3 Shady</li>
 </ol> 
 
 </body>
