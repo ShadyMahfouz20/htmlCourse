@@ -22,46 +22,46 @@ tr:nth-child(even) {
 <body>
 <table>
   <tr>
-    <th>6 Shady</th>
-    <th>5 Shady</th>
+    <th>1 Shady</th>
+    <th>2 Shady</th>
+    <th>3 Shady</th>
     <th>4 Shady</th>
-    <th>4 Shady</th>
   </tr>
   <tr>
-    <td>1 Shady</td>
-    <td>2 Shady</td>
-    <td>3 Shady</td>
-    <td>3 Shady</td>
+    <td>5 Shady</td>
+    <td>6 Shady</td>
+    <td>7 Shady</td>
+    <td>8 Shady</td>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-    <td>Germany</td>
+    <td>9 Shady</td>
+    <td>10 Shady</td>
+    <td>11 Shady</td>
+    <td>12 Shady</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-    <td>Mexico</td>
+    <td>13 Shady</td>
+    <td>14 Shady</td>
+    <td>15 Shady</td>
+    <td>16 Shady</td>
   </tr>
   <tr>
-    <td>Ernst Handel</td>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
+    <td>17 Shady</td>
+    <td>18 Shady</td>
+    <td>19 Shady</td>
+    <td>20 Shady</td>
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
+    <td>21 Shady</td>
+    <td>22 Shady</td>
+    <td>23 Shady</td>
+    <td>24 Shady</td>
   </tr>
   <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
+    <td>25 Shady</td>
+    <td>26 Shady</td>
+    <td>27 Shady</td>
+    <td>28 Shady</td>
   </tr>
   <tr>
     <td>Magazzini Alimentari Riuniti</td>
@@ -73,9 +73,6 @@ tr:nth-child(even) {
 
 </body>
 </html>
-
-
-<a href="https://www.google.com target="_blank">Google Link</a>
 <h1>Html Lists </h1>
 <!DOCTYPE html>
 <html>
