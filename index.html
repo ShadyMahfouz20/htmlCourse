@@ -42,23 +42,21 @@
         font-size: small;
       }
       .circle {
-        width: 400px;
-        height: 400px;
+        width: 200px;
+        height: 200px;
         background-color: rgb(0, 255, 0);
         border-radius: 50%;
       }
-          
-    
-     .circular-text-container {
-        position: relative;
-        width: 200px; 
-        height: 200px;
-        border-radius: 50%;
+      .rectangle {
+        width: 300px;
+        height: 100px;
+        background-color: rgba(18, 212, 247, 0.829);
+      }
+      #circleAndRectangle{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
+      }
     </style>
   </head>
   <body>
@@ -141,9 +139,9 @@
         </td>
       </tr>
     </table>
-
-    <div class="circle">
-     
+    <div id="circleAndRectangle">
+      <div class="circle"></div>
+      <div class="rectangle"></div>
     </div>
-    
-      
+  </body>
+</html>

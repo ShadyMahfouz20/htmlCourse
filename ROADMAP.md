@@ -12,8 +12,8 @@
 <!-- Use comments to hide tags inside css -->
 
 <!-- make a circle -->
-make a rectangle
-make them next to each others
-make them centered in the screen both vertically and horizontally 
+<!-- make a rectangle -->
+<!-- make them next to each others -->
+<!-- make them centered in the screen both vertically and horizontally  -->
 
 Will make the website to display these things on it after
