@@ -17,3 +17,4 @@
 <!-- make them centered in the screen both vertically and horizontally  -->
 
 Will make the website to display these things on it after
+gyhkjlcx mnhgklfd vul,jy ji
