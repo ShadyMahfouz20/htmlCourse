@@ -23,9 +23,9 @@
 
 <!-- Learn the styles of markdown: make a header, ordered list, table. all in markdown format -->
 
-html=> learn tags form tags, submit button and how to use the span tag
+<!-- html=> learn tags form tags, submit button and how to use the span tag -->
 
-learn hover action in css, access style with the tag of html, class name and id of an html element
+<!-- learn hover action in css, access style with the tag of html, class name and id of an html element -->
 learn flexbox in css
 
 ## learning javascript:
