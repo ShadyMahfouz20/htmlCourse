@@ -21,7 +21,7 @@
 
 
 
-Learn the styles of markdown: make a header, ordered list, table. all in markdown format
+<!-- Learn the styles of markdown: make a header, ordered list, table. all in markdown format -->
 
 html=> learn tags form tags, submit button and how to use the span tag
 
