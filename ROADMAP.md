@@ -26,10 +26,10 @@
 <!-- html=> learn tags form tags, submit button and how to use the span tag -->
 
 <!-- learn hover action in css, access style with the tag of html, class name and id of an html element -->
-learn flexbox in css
+<!-- learn flexbox in css -->
 
-## learning javascript:
-Make a counter
+## learning Javascript:
+<!-- Make a counter -->
 learn how to see the output in the console of the browser
 change color of an item when you over over it with javascript
 access item with a class name or an id
@@ -41,21 +41,21 @@ To save data in a database and display it back
 have user authentication
 
 
-## learn Java - with intellij IDE
+## learn Java - With Intellij IDE
 
 Get the basics of data types.
 add variables of different data type
 learn int, float and other types
 Make a program that adds numbers together.
 
-## learn python
+## learn Python
 
 you can make the same apps you made in java, but in python
 
-## learn typescript
+## learn Typescript
 How to use the types, but in a frontend perspective
 
-## learn react
+## learn React
 
 know the different hooks and how to use components
 make a website with all of these info

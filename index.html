@@ -2,6 +2,7 @@
 <html>
    
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       table {
         font-family: arial, sans-serif;
@@ -63,22 +64,42 @@
        font-size: 18px;
       }
       .flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
-  width: 900px;
-  height: 100px;
-  justify-content: center;
-}
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: DodgerBlue;
+        width: 900px;
+        height: 100px;
+        justify-content: center;
+      }
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
+      .flex-container > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+      p {
+        text-align: left;
+        font-size: 20px;
+        margin-top: 0px;
+      }
+
+      /* 🔥 Countdown Blinking Style */
+      #countdown {
+        color: lime;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 0 0 20px lime, 0 0 40px green;
+        animation: blink 1s infinite;
+      }
+
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
     </style>
       <a href="https://www.Google.com">Google.com</a>
   </head>
@@ -101,19 +122,38 @@
       <h4>My name is shady</h4>
 
       <div class="flex-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>  
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>  
-  <div>7</div>
-  <div>8</div>
-</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+        <div>7</div>
+        <div>8</div>
+      </div>
 
-   <a href="https://shadymahfouz20.github.io/Books/">The Books I Read</a>
+      <a href="https://shadymahfouz20.github.io/Books/">The Books I Read</a>
+      <!-- 🔥 Countdown Here -->
+      <p id="countdown"></p>
 
-   
+      <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Jan 5, 2030 15:37:25").getTime();
+
+      setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        // Seconds only
+        var seconds = Math.floor(distance / 1000);
+
+        document.getElementById("countdown").innerHTML = seconds + " seconds left To 2030";
+
+        if (distance < 0) {
+          document.getElementById("countdown").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+      </script>
 
       <p>I Have And My Brother Ahmed A <span style="color:rgba(255, 0, 0, 0.76);">Wite Skin</span></p>
 
@@ -170,7 +210,7 @@
           <td>28</td>
         </tr>
 
-        <!-- القوائم داخل الجدول -->
+        
         <tr>
           <td colspan="2">
             <h2>An Ordered HTML List</h2>
@@ -205,6 +245,3 @@
     </script>
   </body>
 </html>
-  </body>
-
-
