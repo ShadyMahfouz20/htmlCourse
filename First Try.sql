@@ -1,0 +1,11 @@
+CREATE DATABASE mysite;
+CREATE TABLE friends (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  age INT,
+  photo VARCHAR(255)
+);
+
+
+
+ALTER TABLE friends ADD COLUMN photo VARCHAR(255) NULL;

@@ -30,14 +30,14 @@
 
 ## learning Javascript:
 <!-- Make a counter -->
-learn how to see the output in the console of the browser
-change color of an item when you over over it with javascript
-access item with a class name or an id
+<!-- learn how to see the output in the console of the browser -->
+<!-- change color of an item when you over over it with javascript -->
+<!-- access item with a class name or an id -->
 
 
 ## learn SQL
 
-To save data in a database and display it back
+<!-- To save data in a database and display it back -->
 have user authentication
 
 

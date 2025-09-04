@@ -74,18 +74,20 @@
     }
     /* 🔥 Countdown Blinking Style */
     #countdown {
-      color: lime;
+      color: rgb(0, 0, 0);
       font-size: 40px;
       font-weight: bold;
       text-align: center;
-      text-shadow: 0 0 20px lime, 0 0 40px green;
+      text-shadow: 0 0 20px rgba(0, 255, 0, 0), 0 0 40px rgba(0, 128, 0, 0);
       animation: blink 1s infinite;
     }
     @keyframes blink {
       50% { opacity: 0; }
     }
   </style>
-  <a href="https://www.Google.com">Google.com</a>
+
+
+
 </head>
 <body>
   <div style="align-items: center; text-align: center">
@@ -112,8 +114,17 @@
       <div>7</div>
       <div>8</div>
     </div>
+<div id="myDiv">Hello World</div>
 
+<div class="myClass">Item 1</div>
+<div class="myClass">Item 2</div>
     <a href="https://shadymahfouz20.github.io/Books/">The Books I Read</a>
+      <p id="myParagraph">This is some text.</p>
+ <a href="https://www.Google.com">Google.com</a>
+
+  <button onclick="changeColor()">Change Color For (This is some text.)</button>
+  <br><br>
+ 
     <!-- 🔥 Countdown Here -->
     <p id="countdown"></p>
 
@@ -196,6 +207,16 @@ setInterval(function() {
     const today = new Date();
     const diff = Math.floor((today - start) / (1000 * 60 * 60 * 24));
     document.getElementById("daysSince").textContent = diff;
+    console.log("Hello Ahmed This is the output from my JavaScript code.");
+    function changeColor() {
+  const paragraph = document.getElementById("myParagraph");
+  paragraph.style.color = "blue";
+}
+let element = document.getElementById("myDiv");
+  console.log(element.innerText); // Output: Hello World
+  let elements = document.getElementsByClassName("myClass");
+  console.log(elements[0].innerText); // Output: Item 1
+  console.log(elements[1].innerText); // Output: Item 2
   </script>
 </body>
 </html>

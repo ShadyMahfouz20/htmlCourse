@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Back to School Countdown</title>
+  <style>
+    #countdown {
+      font-size: 40px;
+      font-weight: bold;
+      color: black;
+      text-align: center;
+      margin-top: 50px;
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;">⏳ Back To School Countdown ⏳</h1>
+  <p id="countdown"></p>
+
+  <script>
+    // 🎯 Set your Back to School date
+    var schoolDate = new Date("Sep 15, 2025 08:00:00").getTime();
+
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = schoolDate - now;
+
+      // 🔥 Only Hours, Minutes, Seconds
+      var hours = Math.floor(distance / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("countdown").innerHTML =
+        hours + "h " + minutes + "m " + seconds + "s ";
+
+      // If expired
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "🎒 School Time!";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
